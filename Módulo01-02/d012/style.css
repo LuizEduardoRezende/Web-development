@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'PassionOne';
+    src: url(fontes/PassionOne-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PassionOne';
+    src: url(fontes/PassionOne-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PassionOne';
+    src: url(fontes/PassionOne-Black.ttf);
+    font-weight: 900; /* Definir o peso da fonte como 900 para bolder */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(fontes/Sriracha-Regular.ttf);
+    font-weight: normal;
+}
+
+:root {
+    --fonte-padrao: 'Sriracha', Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'PassionOne', cursive;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-weight: bold;    
+    font-size: 4em;
+    padding-top: 50px;
+}
+
+header h2 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-weight: 100;
+    font-size: 1.3em;
+    padding-bottom: 50px;
+}
+
+main {
+    padding: 30px;
+}
+
+main p {
+    font-family: 'Sriracha';
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 2em;
+    display: block;
+    width: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#section2 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    height: 50vh;
+    margin: 0px -30px;
+}
+
+#section2 p {
+    color: white;
+    padding-left: 30px; 
+}
+
+#section4 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    height: 50vh;
+    margin: 0px -30px;
+}
+
+#section4 p {
+    color: black;
+    padding-left: 30px; 
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer strong {
+    color: gray;
+}
+
+footer p{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;    
+    font-size: 1em;
+    padding: 10px;
+}

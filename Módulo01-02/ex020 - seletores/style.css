@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+    pseudoclasse em CSS é :
+*/
+
+body {
+    background-color: #71c5fd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    color: #72F2EB;
+    background-color: #3F7C85;
+}
+
+#d1:hover {
+    background-color: yellow;
+}
+
+div{
+    display: inline-block;
+    background-color: aquamarine;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+

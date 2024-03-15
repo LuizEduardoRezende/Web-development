@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex021 - Grouping Tags</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font: normal 16px Arial, Verdana, serif;
+            margin: 0px;
+            background-color: antiquewhite;
+        }
+
+        header {
+            background-color: darkslateblue;
+            margin: 10px;
+            padding: 2px;
+            text-align: center;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.575);
+        }
+
+        nav {
+            background-color: darkslateblue;
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 60px;
+        }
+
+        nav > a:hover {
+            text-decoration: overline;
+            color: red;
+            font-weight: bold;
+        }
+
+        main {
+            background-color: darkslateblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.575);
+            border-radius: 5px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.233);
+        }
+
+        article > aside {
+            background-color: gray;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: gray;
+            margin:  40px auto;
+            border-radius: 50%;
+        }
+
+        #caixa {
+            height: 100px;
+            width: 600px;
+            background-color: white;
+            border: 3px solid rgb(252, 95, 160);
+            margin:  10px auto;
+            box-shadow: 6px 4px 0px rgb(252, 95, 160);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grouping Tags, com algumas tags semânticas</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticia no Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam nesciunt commodi illum tempore deleniti dolorem neque consequuntur, molestiae natus sapiente incidunt omnis voluptates, praesentium enim ea illo. Dolor, perspiciatis illum?</p>
+                <aside>
+                    <p>Artigo escrito por JÃO</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Luiz Eduardo Rezende</p>
+    </footer>
+    <div id="bola"></div>
+    <div id="caixa"></div>
+</body>
+</html>
