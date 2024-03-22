@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <link rel="stylesheet" href="style.css">
+   <style>
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        width: 500px;
+        height: 50px;
+        border-collapse: collapse;
+        border: 5px black solid;
+        position: relative;
+    }
+
+    thead > tr > th {
+        position: sticky;
+        color: white;
+        background-color: gray;
+        top: 0;
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: left;
+        vertical-align: center;
+    }
+
+    caption {
+        border-top: 5px solid black;
+        border-right: 5px solid black;
+        border-left: 5px solid black;
+
+        font-weight: bold;
+        background-color: rgb(119, 119, 255);
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    tbody > tr:nth-child(odd) {
+        background-color: lightgray;
+    }
+
+    tfoot {
+        color: white;
+        background-color: gray;
+    }
+
+    td.num {
+        text-align: right;
+    }
+
+    p {
+        font-size: 1.5em;
+        text-align: justify;
+    }
+
+   </style>
+</head>
+<body>
+    <h1>Minha primeira tabela grande</h1>
+    <!--
+        ANATOMIA DE TABELAS GRANDES
+        TABLE
+        CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 000 000</td>
+            </tr>
+            <tr>
+                <td>RJ</td>
+                <td class="num">17 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>00000</strong></td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magni vitae consectetur quaerat. Unde cumque sint tenetur nam dolore cum. Sit debitis laboriosam consequatur. Nostrum velit suscipit enim excepturi harum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi delectus necessitatibus officiis molestiae tenetur omnis accusantium suscipit, in laudantium voluptas voluptatibus veritatis voluptatem dolores earum. Veritatis tempore culpa facere vero.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit ullam culpa soluta veritatis placeat et nemo maxime animi non? Sunt, rerum aut! Provident est officiis corporis eligendi odio! Molestias, sed.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magni vitae consectetur quaerat. Unde cumque sint tenetur nam dolore cum. Sit debitis laboriosam consequatur. Nostrum velit suscipit enim excepturi harum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi delectus necessitatibus officiis molestiae tenetur omnis accusantium suscipit, in laudantium voluptas voluptatibus veritatis voluptatem dolores earum. Veritatis tempore culpa facere vero.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit ullam culpa soluta veritatis placeat et nemo maxime animi non? Sunt, rerum aut! Provident est officiis corporis eligendi odio! Molestias, sed.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magni vitae consectetur quaerat. Unde cumque sint tenetur nam dolore cum. Sit debitis laboriosam consequatur. Nostrum velit suscipit enim excepturi harum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi delectus necessitatibus officiis molestiae tenetur omnis accusantium suscipit, in laudantium voluptas voluptatibus veritatis voluptatem dolores earum. Veritatis tempore culpa facere vero.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit ullam culpa soluta veritatis placeat et nemo maxime animi non? Sunt, rerum aut! Provident est officiis corporis eligendi odio! Molestias, sed.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magni vitae consectetur quaerat. Unde cumque sint tenetur nam dolore cum. Sit debitis laboriosam consequatur. Nostrum velit suscipit enim excepturi harum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi delectus necessitatibus officiis molestiae tenetur omnis accusantium suscipit, in laudantium voluptas voluptatibus veritatis voluptatem dolores earum. Veritatis tempore culpa facere vero.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit ullam culpa soluta veritatis placeat et nemo maxime animi non? Sunt, rerum aut! Provident est officiis corporis eligendi odio! Molestias, sed.
+    </p>
+</body>
+</html>
