@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/*Configuraçõs para orientação paisagem*/
+
+body {
+    background: lightgreen url(../cev-landscape.jpg) no-repeat left bottom;
+}
